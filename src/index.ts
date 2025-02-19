@@ -47,7 +47,7 @@ program
   });
 
 program
-  .command("postMeme")
+  .command("post")
   .description("Start topic posting for Twitter")
   .argument("<username>", "Username of the agent")
   .action(async username => {
@@ -75,7 +75,7 @@ program
   });
 
 program
-  .command("listenToPriceFeed+PostMeme")
+  .command("listen+post")
   .description("Start listneing to BTC_USD pricefeed")
   .argument("<username>", "Username of the agent")
   .action(async username => {

@@ -3,7 +3,7 @@
     <img src="docs/logo.png" width="400" alt=""/>
 <br />
 </p>
-<p align="center"><strong style="font-size: 24px;">0xAptosDegen: Crypto Trading Memebot for Degen $APT Fanboys</strong></p>
+<p align="center"><strong style="font-size: 24px;">0xAptosDegen: Crypto Trading Memebot for Aptos Degens</strong></p>
 <p align="center" style="display: flex; justify-content: center; align-items: center;">
     <span style="display: inline-flex; align-items: center; background-color: #1c1c1c; padding: 5px; border-radius: 6px;">
         <a href="https://x.com/0xAptosDegen">
@@ -47,6 +47,7 @@
 - [ ] Develop Mobile App for Real-Time Notifications
 
 ### Attribution & Research
+- [Oracle Framework](https://github.com/oracle-framework/oracle-framework)
 - [Sentiment Analysis in Financial Markets](https://arxiv.org/abs/2204.10185)
 - [Developing Cryptocurrency Trading Strategy Based on Autoencoder-CNN-GANs Algorithms](https://arxiv.org/abs/2412.18202)
 - [Aptos Blockchain Whitepaper](https://aptosfoundation.org/whitepaper)
