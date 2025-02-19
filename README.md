@@ -10,7 +10,7 @@
             <img src="https://img.shields.io/badge/0xAptosDegen-000000?style=for-the-badge&logo=x&logoColor=white" alt="0xAptosDegen" style="height: 21px;"/>
         </a>
         <span style="margin: 0 10px; color: white; font-size: 14px;"></span>
-        <img src="https://img.shields.io/github/stars/johnhorsema/0xAptosDegen?style=social" alt="GitHub stars"/>
+        <img src="https://img.shields.io/github/stars/johnhorsema/merkle-aptos-memebot?style=social" alt="GitHub stars"/>
         <span style="margin: 0 10px; color: white; font-size: 14px;"></span>
         <a href="https://www.easya.io/">
             <img src="https://github.com/user-attachments/assets/09cfc307-f04f-4225-8c3b-bc96c47583a6" alt="EasyA" style="height: 21px;"/>
