@@ -2,6 +2,7 @@ import * as fs from "fs";
 import { Scraper, SearchMode } from "goat-x";
 import dotenv from "dotenv";
 dotenv.config();
+import axios from "axios";
 
 import {
   calcEntryByPaySize,
@@ -213,7 +214,10 @@ export class TwitterProvider {
       //   return;
       // }
 
-      completion = await generateTopicPost(this.character);
+      let news = await axios.get(
+        "https://cryptopanic.com/api/free/v1/posts/?auth_token=bc1b634d2699dbfdb96ff50f54cfdb6e9f031570&currencies=APT&filter=hot",
+      );
+      completion = await generateTopicPost(this.character, news.data);
 
       if (completion) {
         let sendTweetResponse;

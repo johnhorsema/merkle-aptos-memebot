@@ -97,7 +97,7 @@
     ],
     "postingBehavior": {
       "replyInterval": 2700000,
-      "topicInterval": 600000,
+      "topicInterval": 1300000,
       "removePeriods": false,
       "chatModeRules": [
         "if the message says: good night you reply gn",

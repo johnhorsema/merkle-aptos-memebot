@@ -264,7 +264,7 @@ export const generateReply = async (
  * @param character
  * @param recentHistory
  */
-export const generateTopicPost = async (character: Character) => {
+export const generateTopicPost = async (character: Character, news: any) => {
   const topic = character
     .topics!.sort(() => Math.random() - 0.5)
     .slice(0, 1)[0];
@@ -279,7 +279,7 @@ export const generateTopicPost = async (character: Character) => {
     postDirections: character.postDirections.join("\n"),
   };
 
-  const userPrompt = `Generate a post that is ${adjective} about ${topic}`;
+  const userPrompt = `Generate a post that is ${adjective} about ${topic} based on $APT alpha: ${news.results}`;
 
   let prompt = replaceTemplateVariables(TOPIC_PROMPT, context);
   let reply = await generateCompletionForCharacter(

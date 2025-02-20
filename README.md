@@ -1,6 +1,6 @@
 <p align="center">
 <br />
-    <img src="docs/logo.png" width="400" alt=""/>
+    <img src="docs/logo_v2.png" width="400" alt=""/>
 <br />
 </p>
 <p align="center"><strong style="font-size: 24px;">0xAptosDegen: Crypto Trading Memebot for Aptos Degens</strong></p>
@@ -41,7 +41,6 @@
 - [x] Meme Generation Module
 - [x] Integrate with Twitter API for Real-Time Posting
 - [x] Price Listening and Mock Trade Execution
-- [ ] Enhance Sentiment Analysis with Multi-Source Data
 - [ ] Expand Meme Library and Generation Capabilities
 - [ ] Integrate with Additional Blockchains
 - [ ] Develop Mobile App for Real-Time Notifications
