@@ -30,11 +30,12 @@
 - **Integration with Aptos:** Seamlessly integrates with the Aptos blockchain for fast and secure transactions.
 
 ### Demo Video
-- [See it in action](https://www.youtube.com/watch?v=yourvideoid)
+- [See it in action](https://youtu.be/wS0L3EXpubg)
 
 ### Screenshots
 <img width="1512" alt="screenshot1" src="docs/screenshot1.png">
 <img width="1512" alt="screenshot2" src="docs/screenshot2.png">
+<img width="1512" alt="screenshot3" src="docs/screenshot3.png">
 
 ### Roadmap
 
